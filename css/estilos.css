@@ -1,0 +1,59 @@
+* { box-sizing: border-box; }
+
+
+html{
+	
+	padding:0;
+	margin: 0;
+    background: url("../img/car.jpg") no-repeat fixed center; /*la coloque en el html, pues en el body no logre que estuviera siempre expandida */
+    background-size: cover;
+    
+}
+body{
+
+	font-family: 'Roboto', sans-serif;
+
+	}
+
+
+.info{
+
+		color: white;
+		background-color:rgba(0, 0, 0, 0.61);
+		margin: 10% 50% 10% 10%; /*para que la seccion se ubique hacia la izquierda*/
+		border-radius: 5px;
+		padding: 20px;
+		max-width: 600px; /*ancho maximo*/
+
+	}
+
+
+.info a{ /*boton link*/
+
+		background-color: #DB3030;
+		padding: 10px 30px;
+		max-width: 30%;
+		color: white;
+		text-decoration: none;
+		display: block; /*por defecto cuando reduzo el tamaño del navegador, se sale las letras de la seccion*/
+
+		}
+
+
+
+.info p{
+
+  	margin:30px 10px;
+	}
+
+@media(max-width:768px){
+
+	.info{
+
+		max-width: 300px;
+	
+	}
+
+}
+
+
